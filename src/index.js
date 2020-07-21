@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './header';
+import Skills from './skills';
+import Projects from './projects';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+    <Header />
+    <Skills />
+    <Projects />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

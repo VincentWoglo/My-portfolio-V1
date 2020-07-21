@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pontano Sans', sans-serif;
+    color: #36363c;
+}
+.header{
+    display: flex;
+}
+.left-header-content{
+    width: 50%;
+    height: 100vh;
+    background-image: url('../img/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-header-content{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+.content-header{
+    padding-top: 15em;
+    padding-left: 3em;
+}
+.Design-background{
+    font-size: 18em;
+    text-transform: uppercase;
+    color: #FAFBFD;
+}
+.view-projects{
+    background-color: #5367FF;
+    color: #fff;
+    border: 1px #5367FF solid;
+    padding: .7em 2em;
+    border-radius: 2em;
+}
+
+/*skills*/
+.skills{
+    margin-top: 10em;
+}
+.section-title-skills{
+    color: #5367FF;
+}
+
+.skills-list{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.skills-list h1{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.skills-list ul{
+    margin-top: 1.5em;
+    list-style-type: none;
+}
+.skills-list li{
+    margin-top: .5em;
+    font-size: 1rem;
+    color: #4c4c55;
+}
+.Card{
+    background-color: #999;
+    width: 20vw;
+    padding: 20px;
+}
+.Card-img{
+    width: 20vw;
+    height: 30vh;
+    background-image: url('../img/botsociety.png');
+    background-size: cover;
+    margin: auto;
+}
