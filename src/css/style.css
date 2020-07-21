@@ -66,15 +66,34 @@
     font-size: 1rem;
     color: #4c4c55;
 }
+/*projects*/
+.projects{
+    margin-top: 10em
+}
 .Card{
-    background-color: #999;
     width: 20vw;
+    cursor: pointer;
+}
+.Card-info{
+    text-align: center;
+    background-color: #394c5a;
     padding: 20px;
+}
+.Card-info h1{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 .Card-img{
     width: 20vw;
-    height: 30vh;
+    height: 25vh;
     background-image: url('../img/botsociety.png');
     background-size: cover;
-    margin: auto;
+    border: 1px #f1f1f1 solid;
+}
+.Card-section-background{
+    padding: 50px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
 }
