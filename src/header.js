@@ -16,7 +16,7 @@ function header(){
                     <div className="content-intro">
                     <p className="hello">Hello!</p>
                     <h1 className="who-I-am">I'm Koffivi</h1>
-                    <p className="about-me">Full stack developer with 4 years of coding experience. I have worked in</p>
+                    <p className="about-me">Full stack developer within the Denver, CO area. I have been coding since age 14 and also have experience in marketing as a fraelancer. My goal as a developer is to help businesses grow.</p>
                     <input type="button" className="view-projects" value="View Projects"></input>
                     </div>
                     </section>

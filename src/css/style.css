@@ -23,13 +23,14 @@
     
 }
 .content-header{
-    padding-top: 15em;
+    padding-top: 14em;
     padding-left: 3em;
 }
 .Design-background{
     font-size: 18em;
     text-transform: uppercase;
     color: #FAFBFD;
+    cursor: default;
 }
 .view-projects{
     background-color: #5367FF;
@@ -37,8 +38,18 @@
     border: 1px #5367FF solid;
     padding: .7em 2em;
     border-radius: 2em;
+    margin-top: 2em;
+    cursor: pointer;
 }
+.about-me{
+    width: 30vw;
+    margin-top: 1em;
+}
+.who-I-am{
+    margin-top: .5em;
+    font-size: 2rem;
 
+}
 /*skills*/
 .skills{
     margin-top: 10em;
@@ -67,8 +78,15 @@
     color: #4c4c55;
 }
 /*projects*/
+.project-title{
+    text-align: center;
+    margin-bottom: 4em;
+    color: #5367FF;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
 .projects{
-    margin-top: 10em
+    margin-top: 10em;
 }
 .Card{
     width: 20vw;
@@ -96,4 +114,48 @@
     background-color: #fafafa;
     display: flex;
     justify-content: space-between;
+}
+.portal{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #394c5aad;
+    position: fixed;
+    top: 0;
+}
+.modal{
+    background-color: #fff;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 7%;
+}
+.modal-open{
+    display: flex;
+    flex-direction: row;
+}
+.project-img{
+    width: 40%;
+    height: 70vh;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+.project-description{
+    width: 50%;
+    height: 70vh;
+    background-color: #394c5afd;
+}
+.project-img-title{
+    width: 100%;
+    margin-top: 10em;
+}
+.close-model{
+    position: absolute;
+    float: right;
+    margin: 0;
+    padding: 0;
+    right: 15.99%;
+    cursor: pointer;
+    transform: translate(0%, 70%);
 }

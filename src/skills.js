@@ -2,6 +2,7 @@ import React from 'react';
 import './css/style.css';
 
 function Skills(){
+    
     return(
     <div className="skills">
     <section className="programing-skills">
@@ -14,7 +15,6 @@ function Skills(){
                      <li className="php">Php</li>
                      <li className="c#">C#</li>
                      <li className="mysql">Mysql</li>
-                     <li className="react">React</li>
                      <li className="jquert">Jquery</li>
                          <li className="html">Html</li>
                          <li className="css">Css</li>
@@ -26,6 +26,7 @@ function Skills(){
             <ul>
             <li className="node">Node</li>
             <li className="Express">Express</li>
+                     <li className="react">React</li>
             </ul>
             </div>
             <div className="tools">
@@ -48,5 +49,6 @@ function Skills(){
         </div>
     </section>
     </div>
-    )}
+    )
+}
 export default Skills;
