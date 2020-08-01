@@ -34,7 +34,7 @@ class Header extends React.Component{
                     <h1 className="who-I-am">I'm Koffivi</h1>
                     <p className="about-me">Full stack developer within the Denver, CO area. I have been coding since age 14 and also have experience in marketing as a fraelancer. My goal as a developer is to help businesses grow.</p>
                     <input type="button" className="view-projects" id="view-projects" onClick={
-        this.scroll_to} value="View Projects"></input>
+        this.scroll_to} value="View Projects"/>
                     </div>
                     </section>
                     </div>
