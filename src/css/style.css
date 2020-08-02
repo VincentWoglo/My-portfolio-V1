@@ -127,6 +127,53 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.project-description{
+    text-align: center;
+}
+.project-description input{
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2em;
+    border: 1px #fff solid;
+}
+.call-action-btn-1{
+    background-color: transparent;
+    color: #fff;
+}
+.call-action-btn-2{
+    background-color: #fff;
+    color: #36363c;
+}
+.project-description p{
+    width: 30vw;
+    margin: auto;
+    color: #fff;
+    margin-top: 3em;
+}
+.project-description li{
+    color: #fff;
+    list-style-type: none;
+}
+.built-with{
+    display: flex;
+    width: 15vw;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+}
+.built-with-react{
+    width: 3vw;
+    margin: auto;
+}
+.built-with-php,.built-with-Jquery{
+    width: 3vw;
+}
+.built-with-html,.built-with-css{
+    width: 2vw;
+}
 .portal{
     display: none;
     width: 100%;
