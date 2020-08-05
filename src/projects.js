@@ -339,12 +339,15 @@ onClick_portal_open(){
                     <div className="close-modal" id="close-modal" onClick={this.onClick_portal_close}><img src={Close_modal}/></div>
                     <div className="project-description">
                         <p className="Info-about-project">
-                            This project is a simple Ecommerce template that I built with the react library.
-                            I chose to build this project with react so it can be easily upgraded when need.
-                            There is no back end to this project, only the landing front page.                         
+                            This project is a pre-launch page that I built.
+                            I built this page because there was not a product ready to published
+                            so we needed to collect emails.                         
                         </p>
                         <ul className="built-with">
-                        <img src={Reacts} className="built-with-react" />
+                        <img src={Php} className="built-with-php" />
+                        <img src={Jquery} className="built-with-Jquery" />
+                        <img src={Html} className="built-with-html" />
+                        <img src={Css} className="built-with-css" />
                             </ul>
                             <a href="https://github.com/VincentWoglo/care.github.io" target="_blank"><input type="button"  className="call-action-btn-1" value="View Code"/></a>
                             <a href="https://www.doorchef.net/" target="_blank"><input type="button"  className="call-action-btn-2" value="Live Preview"/></a>
