@@ -148,7 +148,7 @@ onClick_portal_open(){
                         <img src={DoorchefSite} className="Card-img-title"/>
                         </div>
                         <div className="Card-info">
-                            <h1 className="Card-title">Ecommerce Template Design</h1>
+                            <h1 className="Card-title">DoorChef Pre-Launch</h1>
                         </div>
                         </div>
                 </div></Link>
