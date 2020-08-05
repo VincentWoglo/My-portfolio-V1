@@ -13,6 +13,7 @@ import Reacts from "./img/react-2.svg";
 import Html from "./img/html-5.svg";
 import Css from "./img/css-5.svg";
 import Php from "./img/php-1.svg";
+import DoorchefSite from "./img/doorchef website.png"
 import Header from './header';
 import Jquery from './img/jquery-2.svg';
 import {Route, BrowserRouter as Router, Link, Switch} from 'react-router-dom'
@@ -140,11 +141,11 @@ onClick_portal_open(){
                 </div></Link>
                 
 
-                <Link to="/Care"> <div className="Card-field" id="Card-field" onClick={this.onClick_portal_open}>
+                <Link to="/DoorChef Website"> <div className="Card-field" id="Card-field" onClick={this.onClick_portal_open}>
                     <div className="Card">
                         <div className="Card-img">
                             
-                        <img src={Care} className="Card-img-title"/>
+                        <img src={DoorchefSite} className="Card-img-title"/>
                         </div>
                         <div className="Card-info">
                             <h1 className="Card-title">Ecommerce Template Design</h1>
@@ -331,7 +332,7 @@ onClick_portal_open(){
             </div>
                 </Route>
 
-                <Route path="/Care">
+                <Route path="/DoorChef Website">
                 <div className="portal" id="portal">
                 <div className="modal" > 
                     <div className="modal-open">
@@ -346,10 +347,10 @@ onClick_portal_open(){
                         <img src={Reacts} className="built-with-react" />
                             </ul>
                             <a href="https://github.com/VincentWoglo/care.github.io" target="_blank"><input type="button"  className="call-action-btn-1" value="View Code"/></a>
-                            <a href="https://vincentwoglo.github.io/care.github.io/" target="_blank"><input type="button"  className="call-action-btn-2" value="Live Preview"/></a>
+                            <a href="https://www.doorchef.net/" target="_blank"><input type="button"  className="call-action-btn-2" value="Live Preview"/></a>
                     </div>
                     <div className="project-img">
-                        <img src={Care} className="project-img-title"/>
+                        <img src={DoorchefSite} className="project-img-title"/>
                     </div>
                 </div>
                 </div>
