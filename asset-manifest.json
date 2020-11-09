@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/My-portfolio-V1.github.io/static/css/main.36702826.chunk.css",
+    "main.js": "/My-portfolio-V1.github.io/static/js/main.469f9ceb.chunk.js",
+    "main.js.map": "/My-portfolio-V1.github.io/static/js/main.469f9ceb.chunk.js.map",
+    "runtime-main.js": "/My-portfolio-V1.github.io/static/js/runtime-main.ef52a3de.js",
+    "runtime-main.js.map": "/My-portfolio-V1.github.io/static/js/runtime-main.ef52a3de.js.map",
+    "static/js/2.892a6233.chunk.js": "/My-portfolio-V1.github.io/static/js/2.892a6233.chunk.js",
+    "static/js/2.892a6233.chunk.js.map": "/My-portfolio-V1.github.io/static/js/2.892a6233.chunk.js.map",
+    "index.html": "/My-portfolio-V1.github.io/index.html",
+    "precache-manifest.b8f53e6a1f08b0d635d751b78c60d302.js": "/My-portfolio-V1.github.io/precache-manifest.b8f53e6a1f08b0d635d751b78c60d302.js",
+    "service-worker.js": "/My-portfolio-V1.github.io/service-worker.js",
+    "static/css/main.36702826.chunk.css.map": "/My-portfolio-V1.github.io/static/css/main.36702826.chunk.css.map",
+    "static/js/2.892a6233.chunk.js.LICENSE.txt": "/My-portfolio-V1.github.io/static/js/2.892a6233.chunk.js.LICENSE.txt",
+    "static/media/Volo-digital-agency.png": "/My-portfolio-V1.github.io/static/media/Volo-digital-agency.bddecf65.png",
+    "static/media/care.png": "/My-portfolio-V1.github.io/static/media/care.de699bb2.png",
+    "static/media/crossway.png": "/My-portfolio-V1.github.io/static/media/crossway.90130631.png",
+    "static/media/css-5.svg": "/My-portfolio-V1.github.io/static/media/css-5.6971ddc7.svg",
+    "static/media/diesoy.png": "/My-portfolio-V1.github.io/static/media/diesoy.4a0f4381.png",
+    "static/media/doorchef website.png": "/My-portfolio-V1.github.io/static/media/doorchef website.60dca683.png",
+    "static/media/doorchef.png": "/My-portfolio-V1.github.io/static/media/doorchef.d8ffa1bb.png",
+    "static/media/html-5.svg": "/My-portfolio-V1.github.io/static/media/html-5.676e8188.svg",
+    "static/media/iconmonstr-x-mark-thin.svg": "/My-portfolio-V1.github.io/static/media/iconmonstr-x-mark-thin.540a3dde.svg",
+    "static/media/jquery-2.svg": "/My-portfolio-V1.github.io/static/media/jquery-2.413afd8e.svg",
+    "static/media/php-1.svg": "/My-portfolio-V1.github.io/static/media/php-1.7634d1a3.svg",
+    "static/media/react-2.svg": "/My-portfolio-V1.github.io/static/media/react-2.c3fbd71b.svg",
+    "static/media/style.css": "/My-portfolio-V1.github.io/static/media/tim-van-der-kuip-CPs2X8JYmS8-unsplash.794f112f.jpg",
+    "static/media/walmart.png": "/My-portfolio-V1.github.io/static/media/walmart.adf2de5e.png",
+    "static/media/wayfair.png": "/My-portfolio-V1.github.io/static/media/wayfair.5da470c8.png",
+    "static/media/zillow.png": "/My-portfolio-V1.github.io/static/media/zillow.ef4e3f4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef52a3de.js",
+    "static/js/2.892a6233.chunk.js",
+    "static/css/main.36702826.chunk.css",
+    "static/js/main.469f9ceb.chunk.js"
+  ]
+}

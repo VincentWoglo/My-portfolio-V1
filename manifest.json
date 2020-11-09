@@ -1,7 +1,6 @@
 {
-  "homepage": "https://vincentwoglo.github.io/My-portfolio-V1.github.io/.",
-  "short_name": "Koffivi Woglo",
-  "name": "Koffivi Woglo",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
