@@ -17,7 +17,7 @@ function Skills(){
                      <li className="mysql">Mysql</li>
                      <li className="jquert">Jquery</li>
                          <li className="html">Html</li>
-                         <li className="css">Css</li>
+                         <li className="Sass">Css</li>
 
                      </ul>
             </div>
