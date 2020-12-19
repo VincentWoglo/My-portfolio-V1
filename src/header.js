@@ -1,5 +1,6 @@
 import React from 'react';	
-import './css/style.css';	
+import './css/style.css';
+import Hamburger_menu from "./img/hamburger-menu.svg";	
 import Projects from './projects';	
 
 class Header extends React.Component{	
@@ -7,7 +8,6 @@ class Header extends React.Component{
     scroll_to(){	
         let get_project = document.getElementById('project');	
         get_project.scrollIntoView({behavior: "smooth"})	
-
     }	
     constructor(props){	
         super(props)	
@@ -27,6 +27,14 @@ class Header extends React.Component{
                     */}	
                 </div>	
                 <div className="right-header-content">	
+                    <div className="header-menu">
+                        <ul className="header-menu-sub">
+                            <li>Blogs</li>
+                            <div className="header-hamburger-menu">
+                                <img src={Hamburger_menu } />
+                            </div>
+                        </ul>
+                    </div>
                     <div className="content-header">	
                     <section className="introduction">	
                     <div className="content-intro">	
