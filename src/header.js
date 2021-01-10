@@ -29,11 +29,18 @@ class Header extends React.Component{
                 <div className="right-header-content">	
                     <div className="header-menu">
                         <ul className="header-menu-sub">
-                            <li>Blogs</li>
+                            <li className="header-menu-blogs">Blogs</li>
                             <div className="header-hamburger-menu">
                                 <img src={Hamburger_menu } />
                             </div>
                         </ul>
+                        <div className="header-hamburger-menu-cover">
+                            <div className="header-hamburger-menu-open">
+                                <ul className="header-hamburger-menu-open-text">
+                                    <li>jdhfjkdfjk</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div className="content-header">	
                     <section className="introduction">	

@@ -4,6 +4,14 @@
   padding: 0;
   font-family: 'Pontano Sans', sans-serif;
   color: #36363c;
+  outline: none !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 
 .header {
@@ -37,6 +45,30 @@
 
 .header-menu .header-hamburger-menu {
   cursor: pointer;
+}
+
+.header-menu .header-menu-blogs {
+  cursor: pointer;
+}
+
+.header-menu .header-hamburger-menu-cover {
+  display: none;
+  position: absolute;
+  top: 7%;
+  -webkit-transform: translate(100%, 10% s);
+          transform: translate(100%, 10% s);
+}
+
+.header-menu .header-hamburger-menu-cover .header-hamburger-menu-open {
+  padding: 50px;
+  width: 10vw;
+  height: 80vh;
+  background-color: #394c5a;
+}
+
+.header-menu .header-hamburger-menu-cover .header-hamburger-menu-open .header-hamburger-menu-open-text li {
+  list-style-type: none;
+  color: #fff;
 }
 
 .left-header-content {
